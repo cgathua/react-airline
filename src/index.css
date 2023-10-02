@@ -26,7 +26,7 @@ html {
 
 body {
   font-family: 'Nimbus Mono PS', 'Courier New', monospace;
-  font-weight: 300;
+  font-weight: 400;
   min-height: 100svh;
   line-height: 1.75;
 }
@@ -46,6 +46,10 @@ img {
 a {
   color: var(--secondary-color);
   transition: var(--transition);
+}
+
+a:hover {
+  color: var(--tertiary-color);
 }
 
 h1,
