@@ -1,0 +1,91 @@
+:root {
+  --primary-color: #D3D2D2;
+  --secondary-color: #2A1415;
+  --tertiary-color: #771B1F;
+  --alternate-color: #736463;
+  --desktop-container: 80%;
+  --mobile-container: 90%;
+  --transition: all 0.3s linear;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: 'Nimbus Mono PS', 'Courier New', monospace;
+  font-weight: 300;
+  min-height: 100svh;
+  line-height: 1.75;
+}
+
+.container {
+  margin: 0 auto;
+  width: var(--desktop-container);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+a {
+  color: var(--secondary-color);
+  transition: var(--transition);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--secondary-color);
+}
+
+.btn {
+  padding: 5px 20px;
+  background-color: transparent;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  cursor: pointer;
+  transition: var(--transition);
+  margin: 1rem auto;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background-color: var(--primary-color);
+}
+
+.BtnPrimary:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+section {
+  padding: 4rem 0;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+html,
+body {
+  width: auto !important;
+  overflow-x: hidden !important
+}
