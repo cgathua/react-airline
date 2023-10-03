@@ -1,33 +1,20 @@
 import { Fragment } from "react";
-
+import {DesktopListItems} from './DesktopLiItems'
+import {MobileListItems} from './MobileListItems'
 function Navbar()  {
-    let items = [
-        { id: 0, link: '#home', title: 'Home'},
-        { id: 1, link: '#benefits', title: 'Benefits'},
-        { id: 2, link: '#testimonial', title: 'Testimonial'},
-        { id: 3, link: '#faq', title: 'FAQs'},
-        { id: 4, link: '#booking', title: 'Book Flight'}
-    ]
-
-    let ulLists = [
-        { id: 5, link: '#home', title: 'Home'},
-        { id: 6, link: '#benefits', title: 'Benefits'},
-        { id: 7, link: '#testimonial', title: 'Testimonials'},
-        { id: 8, link: '#faq', title: 'FAQs'},
-        { id: 9, link: '#booking', title: 'Book Flight'}
-    ]
+    
 
     return (
         <Fragment>
             <header>
                 <a href="#home" className="logo" aria-label="website logo">LOGO</a>
                 <nav>
-                    {items.length === 0 ? <p>No item found</p> : null}
+                    {DesktopListItems.length === 0 ? <p>No item found</p> : null}
                     <ul className="nav_links">
-                        {items.map(item => <li key={item.id}><a aria-label="desktop nav" href={item.link}>{item.title}</a></li>)}   
+                        {DesktopListItems.map(item => <li key={item.id}><a aria-label="desktop nav" href={item.link}>{item.title}</a></li>)}   
                     </ul>
                     <ul className="navbar2">
-                        {ulLists.map(elem => <li key={elem.id}><a aria-label="mobile nav" href={elem.link}>{elem.title}</a></li>)}
+                        {MobileListItems.map(elem => <li key={elem.id}><a aria-label="mobile nav" href={elem.link}>{elem.title}</a></li>)}
                     </ul>
                     <button className="menu-btn" aria-label="menu" aria-haspopup="true" aria-expanded="false">
                     <svg
