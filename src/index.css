@@ -3,6 +3,7 @@
   --secondary-color: #2A1415;
   --tertiary-color: #771B1F;
   --alternate-color: #736463;
+  --color-white: #fff;
   --desktop-container: 86%;
   --mobile-container: 90%;
   --transition: all 0.3s linear;
@@ -87,5 +88,5 @@ section h2 {
 html,
 body {
   width: auto !important;
-  overflow-x: hidden !important
+  overflow-x: hidden !important;
 }

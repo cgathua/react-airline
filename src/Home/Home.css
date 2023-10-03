@@ -1,13 +1,14 @@
 section[id="home"] .container {
     display: grid;
-    grid-template-columns: minmax(min-content, 70%) minmax(min-content, 30%);
+    grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 1fr);
     place-items: center end;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 h1 {
     color: var(--tertiary-color);
 }
+
 
 .HomeArticle a {
     font-weight: bold;

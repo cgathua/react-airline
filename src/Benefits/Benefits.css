@@ -1,0 +1,14 @@
+section[id="benefits"] .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+section[id="benefits"] h2 {
+    color: var(--tertiary-color);
+}
+
+.BenefitsArticle {
+    padding: 1rem;
+    text-align: center;
+}
