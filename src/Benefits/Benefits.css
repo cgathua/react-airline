@@ -12,3 +12,8 @@ section[id="benefits"] h2 {
     padding: 1rem;
     text-align: center;
 }
+
+.BenefitsArticle h3 {
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+}

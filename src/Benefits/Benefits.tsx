@@ -37,7 +37,7 @@ function Benefits(): JSX.Element {
                     </article>
 
                     <article className="BenefitsArticle">
-                        <svg 
+                        <svg
                             width="48px" 
                             height="48px" 
                             viewBox="0 0 24 24" 

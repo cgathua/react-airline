@@ -11,7 +11,7 @@ header {
     transform: translate(0);
     width: 100%;
     padding: 0 1rem;
-    background-color: var(--color-white);
+    background-color: var(--rgba-color);
 }
 
 .nav_links {
