@@ -1,4 +1,8 @@
-export const  MobileListItems = [
+export const  MobileListItems: {
+    id: number,
+    link: string,
+    title: string
+}[] = [
     { id: 5, link: '#home', title: 'Home'},
     { id: 6, link: '#benefits', title: 'Benefits'},
     { id: 7, link: '#testimonial', title: 'Testimonials'},
