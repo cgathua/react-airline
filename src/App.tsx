@@ -17,6 +17,6 @@ function App(): JSX.Element {
       <Testimonials />
     </>
   )
-}
+};
 
 export default App

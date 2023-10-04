@@ -1,0 +1,50 @@
+section[id="testimonial"] .container {
+    display: grid;
+    place-items: center;
+}
+
+.ReviewsContainer {
+    overflow-x: hidden;
+    position: relative;
+    margin-bottom: 5rem;
+    line-height: 1.1;
+}
+
+.ReviewsContainer h2 {
+    color: var(--tertiary-color);
+}
+
+.ReviewArticle {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.ProfilePic {
+    width: 6rem;
+    border-radius: 50%;
+    border: 2px solid var(--tertiary-color);
+}
+
+.Image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Review {
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+    padding: 1rem;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.SliderButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem auto;
+    background: transparent;
+    cursor: pointer;
+}

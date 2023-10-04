@@ -2,8 +2,6 @@ import { Fragment } from "react";
 import {DesktopListItems} from './DesktopLiItems'
 import {MobileListItems} from './MobileListItems'
 function Navbar()  {
-    
-
     return (
         <Fragment>
             <header>
