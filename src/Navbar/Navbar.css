@@ -8,10 +8,12 @@ header {
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    transform: translate(0);
+    top: 0;
+    left: 0;
     width: 100%;
     padding: 0 1rem;
     background-color: var(--rgba-color);
+    z-index: 9;
 }
 
 .nav_links {

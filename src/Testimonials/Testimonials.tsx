@@ -53,7 +53,7 @@ function Testimonials(): JSX.Element {
                         <svg
                             onClick={previousSlide}
                             xmlns="http://www.w3.org/2000/svg"
-                            width="36"
+                            min-width="36"
                             height="36"
                             viewBox="0 0 24 24"
                             fill="none"
@@ -66,7 +66,7 @@ function Testimonials(): JSX.Element {
                         <svg
                             onClick={nextSlide}
                             xmlns="http://www.w3.org/2000/svg"
-                            width="36"
+                            min-width="36"
                             height="36"
                             viewBox="0 0 24 24"
                             fill="none"

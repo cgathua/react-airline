@@ -8,7 +8,7 @@ function Benefits(): JSX.Element {
                         <svg
                             fill="#771B1F"
                             height="48px"
-                            width="48px"
+                            min-width="48px"
                             version="1.1" id="Layer_1"
                             xmlns="http://www.w3.org/2000/svg"
                             xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -24,7 +24,7 @@ function Benefits(): JSX.Element {
                         <svg
                             fill="#771B1F"
                             height="48px"
-                            width="48px"
+                            min-width="48px"
                             version="1.1" id="Capa_1"
                             xmlns="http://www.w3.org/2000/svg"
                             xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -38,7 +38,7 @@ function Benefits(): JSX.Element {
 
                     <article className="BenefitsArticle">
                         <svg
-                            width="48px" 
+                            min-width="48px" 
                             height="48px" 
                             viewBox="0 0 24 24" 
                             fill="none" xmlns="http://www.w3.org/2000/svg"

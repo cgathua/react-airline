@@ -4,9 +4,11 @@
   --tertiary-color: #771B1F;
   --alternate-color: #736463;
   --rgba-color: rgba(255, 255, 255, 0.9);
+  --accordion-background: #fff;
   --desktop-container: 86%;
   --mobile-container: 90%;
   --transition: all 0.3s linear;
+  --radix-accordion-content-height: 18rem;
 }
 
 html {

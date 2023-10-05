@@ -6,6 +6,8 @@ import Benefits from "./Benefits/Benefits"
 import './Benefits/Benefits.css'
 import Testimonials from "./Testimonials/Testimonials"
 import './Testimonials/Testimonials.css'
+import Faqs from "./Faqs/Faqs"
+import './Faqs/Faqs.css'
 
 
 function App(): JSX.Element {
@@ -15,6 +17,7 @@ function App(): JSX.Element {
       <Home />
       <Benefits />
       <Testimonials />
+      <Faqs />
     </>
   )
 };
