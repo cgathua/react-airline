@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import {DesktopListItems} from './DesktopLiItems'
 import {MobileListItems} from './MobileListItems'
-function Navbar()  {
+function Navbar(): JSX.Element  {
     return (
         <Fragment>
             <header>
