@@ -1,0 +1,103 @@
+section[id="booking"] {
+    background-color: var(--accordion-background);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('/images/safwan-mahmud-6xQFm9TFwmk-unsplash1.jpg');
+
+    @supports (background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('/images/safwan-mahmud-6xQFm9TFwmk-unsplash.webp')) {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('public/images/safwan-mahmud-6xQFm9TFwmk-unsplash.webp');
+    }
+}
+
+
+section[id="booking"] .container {
+    display: grid;
+    place-items: center;
+}
+
+section[id="booking"] h2 {
+    color: var(--tertiary-color);
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+    color: var(--secondary-color);
+}
+
+.form {
+    margin: 0 auto;
+    max-width: 400px;
+    min-width: 250px;
+    width: 60vw;
+    padding-bottom: 2em;
+    font-weight: 600;
+}
+
+fieldset {
+    border: none;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+input,
+select,
+legend {
+    width: 100%;
+    margin: 10px 0 0 0;
+    min-height: 2em;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+input {
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    color: var(--secondary-color);
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    height: 2em;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: var(--tertiary-color);
+    border-color: var(--tertiary-color);
+    color: var(--primary-color);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    min-width: 250px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+input[type="submit"]:hover {
+    background-color: transparent;
+    border-color: var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+input:focus {
+    background-color: transparent;
+    color: var(--secondary-color);
+}
+
+input:focus-visible {
+    outline: 2px solid var(--primary-color);
+}
+
+select:focus-visible {
+    outline: 2px solid var(--primary-color);
+}
+
+select {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}

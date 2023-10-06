@@ -8,6 +8,8 @@ import Testimonials from "./Testimonials/Testimonials"
 import './Testimonials/Testimonials.css'
 import Faqs from "./Faqs/Faqs"
 import './Faqs/Faqs.css'
+import Booking from "./Booking/Booking"
+import './Booking/Booking.css'
 
 
 function App(): JSX.Element {
@@ -18,6 +20,7 @@ function App(): JSX.Element {
       <Benefits />
       <Testimonials />
       <Faqs />
+      <Booking />
     </>
   )
 };
