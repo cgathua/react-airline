@@ -76,6 +76,7 @@ input[type="submit"] {
     min-width: 250px;
     cursor: pointer;
     transition: var(--transition);
+    text-transform: capitalize;
 }
 
 input[type="submit"]:hover {

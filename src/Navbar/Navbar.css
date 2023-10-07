@@ -1,5 +1,5 @@
-.menu-btn,
-.navbar2 {
+.MenuBtn,
+.NavBar2 {
     display: none;
 }
 
@@ -14,9 +14,10 @@ header {
     padding: 0 1rem;
     background-color: var(--rgba-color);
     z-index: 9;
+    font-weight: 600;
 }
 
-.nav_links {
+.NavLinks {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,3 +27,81 @@ header {
 .logo {
     font-size: 1.5rem;
 }
+
+/* end of desktop nav */
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: var(--desktop-container);
+    }
+
+    .NavLinks {
+        display: none;
+    }
+
+    .MenuBtn {
+        display: initial;
+    }
+
+    .NavBar2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        transition: var(--transition);
+        height: 100vh;
+        width: 16rem;
+        padding: 1rem;
+        left: -100%;
+        background-color: var(--secondary-color);
+    }
+
+    .NavBar2 li {
+        padding: 1.5rem;
+        width: 100%;
+    }
+
+    .NavBar2 li a {
+        color: var(--primary-color);
+        line-height: 1;
+        font-size: 13px;
+        border-radius: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 25px;
+        padding: 0 5px;
+        outline: none
+    }
+
+    .NavBar2 a:hover {
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+    }
+
+    .show_nav {
+        left: 0;
+    }
+
+    .hide_nav {
+        left: -100%;
+    }
+
+    .MenuBtn {
+        display: inline-block;
+        cursor: pointer;
+        background-color: transparent;
+        margin: 0.5rem auto;
+        color: var(--secondary-color);
+        align-items: center;
+        justify-content: center;
+    }
+
+    header {
+        border-bottom: 1px solid var(--rgba-primary);
+    }
+}
+
+/* end of mobile & tablet navigation menu */
