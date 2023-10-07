@@ -10,6 +10,8 @@ import Faqs from "./Faqs/Faqs"
 import './Faqs/Faqs.css'
 import Booking from "./Booking/Booking"
 import './Booking/Booking.css'
+import Footer from "./Footer/Footer"
+import './Footer/Footer.css'
 
 
 function App(): JSX.Element {
@@ -21,6 +23,7 @@ function App(): JSX.Element {
       <Testimonials />
       <Faqs />
       <Booking />
+      <Footer />
     </>
   )
 };

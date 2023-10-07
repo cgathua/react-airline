@@ -15,7 +15,7 @@ function Booking() {
                         <fieldset>
                             <legend>
                                 <label id="name"> <ProfileIcon /> Passenger Name <input type="text" name="Passenger Name" aria-label="official name" required autoComplete='on' /></label>
-                                <label id="email"> <EmailIcon /> Email <input type="email" name="Email Address" aria-labelledby="email" required /></label>
+                                <label id="email"> <EmailIcon /> Email <input type="email" name="Email Address" aria-labelledby="email" required autoComplete="email" /></label>
                                 <label id="departure"> <DepartureIcon /> Departure
                                     <select name="DepartureMenu">
                                         <option value="">(select one)</option>
@@ -34,7 +34,7 @@ function Booking() {
                                 <label id="time"> <TimeIcon /> Time <input type="time" name="Schedule Time" aria-labelledby="time" required /></label>
                             </legend>
                         </fieldset>
-                        <input type="submit" id="submit" value="book flight" />
+                        <label className="label1"><input type="submit" id="submit" value="book flight" /></label>
                     </form>
                 </div>
             </section>
