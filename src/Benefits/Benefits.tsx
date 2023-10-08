@@ -1,11 +1,12 @@
 function Benefits(): JSX.Element {
     return (
         <>
-            <section id="benefits">
+            <section id="benefits" aria-label="benefits section">
                 <h2>Benefits</h2>
                 <div className="container">
                     <article className="BenefitsArticle">
                         <svg
+                            aria-hidden
                             fill="#771B1F"
                             height="48px"
                             min-width="48px"
@@ -22,6 +23,7 @@ function Benefits(): JSX.Element {
 
                     <article className="BenefitsArticle">
                         <svg
+                            aria-hidden
                             fill="#771B1F"
                             height="48px"
                             min-width="48px"
@@ -38,6 +40,7 @@ function Benefits(): JSX.Element {
 
                     <article className="BenefitsArticle">
                         <svg
+                            aria-hidden
                             min-width="48px" 
                             height="48px" 
                             viewBox="0 0 24 24" 

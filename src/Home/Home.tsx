@@ -6,7 +6,7 @@ import DefaultImg from '/images/2559290_1053(1920).jpg'
 function Home(): JSX.Element {
     return (
         <>
-            <section id="home">
+            <section id="home" aria-label='home section'>
                 <div className="container">
                     <img
                         srcSet={`${SmallImg} 480w, ${MediumImg} 960w, ${LargeImg} 1920w, ${DefaultImg} 1920w`}
@@ -20,7 +20,7 @@ function Home(): JSX.Element {
                         <h1>Affordable Regional Flights</h1>
                         <p>We offer daily flights from Hartesfield-Jackson Atlanta International Airport, to Miami International Airport.</p>
                         <p>Trusted by thousands of passengers since 2002.</p>
-                        <a className='btn' href="#booking">Book Now</a>
+                        <a className='btn' href="#booking" aria-label='link to booking section'>Book Now</a>
                     </article>
                 </div>
             </section>

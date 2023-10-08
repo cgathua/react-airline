@@ -6,7 +6,7 @@ import { ChevronDown } from './ChevronDownIcon';
 function Faqs() {
     return (
         <Fragment>
-            <section id="faq">
+            <section id="faq" aria-label='frequently asked questions section'>
                 <h2>FAQs</h2>
                 <div className="container">
                     <Accordion.Root className="AccordionRoot" type="single" defaultValue="item-1" collapsible>

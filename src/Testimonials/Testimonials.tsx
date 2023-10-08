@@ -32,7 +32,7 @@ function Testimonials(): JSX.Element {
 
     return (
         <>
-            <section id="testimonial" className="container ReviewsContainer">
+            <section id="testimonial" className="container ReviewsContainer" aria-label='testimonials section'>
                 <h2>Testimonials</h2>
                 <div className="container">
                     <figure className="ReviewArticle">
@@ -51,6 +51,7 @@ function Testimonials(): JSX.Element {
                     </figure>
                     <button className='SliderButton'>
                         <svg
+                            aria-label='left arrow'
                             onClick={previousSlide}
                             xmlns="http://www.w3.org/2000/svg"
                             min-width="36"
@@ -64,6 +65,7 @@ function Testimonials(): JSX.Element {
                             className="feather feather-arrow-left-circle"><circle cx="12" cy="12" r="10"></circle><polyline points="12 8 8 12 12 16"></polyline><line x1="16" y1="12" x2="8" y2="12"></line>
                         </svg>
                         <svg
+                            aria-label='right arrow'
                             onClick={nextSlide}
                             xmlns="http://www.w3.org/2000/svg"
                             min-width="36"

@@ -8,7 +8,7 @@ import { EmailIcon } from "./Emailicon"
 function Booking() {
     return (
         <>
-            <section id="booking">
+            <section id="booking" aria-label="booking section">
                 <h2>Book Flight</h2>
                 <div className="container">
                     <form action="booking form" method="post" className="form">
