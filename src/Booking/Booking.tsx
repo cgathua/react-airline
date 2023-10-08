@@ -14,7 +14,7 @@ function Booking() {
                     <form action="booking form" method="post" className="form">
                         <fieldset>
                             <legend>
-                                <label id="name"> <ProfileIcon /> Passenger Name <input type="text" name="Passenger Name" aria-label="official name" required autoComplete='on' /></label>
+                                <label id="name"> <ProfileIcon /> Passenger Name <input type="text" name="Passenger Name" title="first and last name, separated by a gap" aria-label="official name" autoComplete='on' pattern="(^[a-zA-Z]{1,15} [a-zA-Z]{1,15}$)" required/></label>
                                 <label id="email"> <EmailIcon /> Email <input type="email" name="Email Address" aria-labelledby="email" required autoComplete="email" /></label>
                                 <label id="departure"> <DepartureIcon /> Departure
                                     <select name="DepartureMenu">
