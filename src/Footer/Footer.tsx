@@ -51,7 +51,7 @@ function Footer(): JSX.Element {
                         <h2 className="footer-title">Get Vouchers</h2>
                         <p>Subscribe to our mailing list.</p>
                         <form action="newsletter" aria-label="signup">
-                            <label id="footer-email" className="label"><input id="footer-email" type="email" name="email" placeholder="Enter your email" required
+                            <label id="email-label" className="label"><input id="footer-email" type="email" name="email" placeholder="Enter your email" required
                                 aria-label="enter your email" autoComplete="email"/>
                             </label>
                             <label htmlFor="submit" className="label2"><input type="submit" value="Subscribe"/></label>

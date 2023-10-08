@@ -6,7 +6,7 @@ section[id="booking"] {
     background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('/images/safwan-mahmud-6xQFm9TFwmk-unsplash1.jpg');
 
     @supports (background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('/images/safwan-mahmud-6xQFm9TFwmk-unsplash.webp')) {
-        background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('public/images/safwan-mahmud-6xQFm9TFwmk-unsplash.webp');
+        background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('/images/safwan-mahmud-6xQFm9TFwmk-unsplash.webp');
     }
 }
 
