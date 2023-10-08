@@ -17,3 +17,17 @@ section[id="benefits"] h2 {
     background-color: var(--tertiary-color);
     color: var(--primary-color);
 }
+
+/* end of desktop version */
+
+@media screen and (max-width: 1024px) {
+    section[id="benefits"] .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    section[id="benefits"] .container {
+        grid-template-columns: minmax(min-content, 1fr);
+    }   
+}

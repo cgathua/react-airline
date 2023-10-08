@@ -103,5 +103,12 @@ header {
         border-bottom: 1px solid var(--rgba-primary);
     }
 }
-
 /* end of mobile & tablet navigation menu */
+
+@media screen and (max-width: 600px) {
+    .container {
+      width: var(--mobile-container);
+    }
+    
+}
+
