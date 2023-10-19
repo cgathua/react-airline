@@ -31,7 +31,7 @@ section[id="footer-main"] {
 }
 
 h2[class="footer-title"] {
-    color: var(--secondary-color);
+    color: var(--tertiary-color);
     font-size: 1.375rem;
     padding-bottom: 0.625rem;
     display: initial;
@@ -82,7 +82,7 @@ section[id="footer-socials"] {
 ul[class="footer-icons"] {
     display: flex;
     justify-content: center;
-    border-top: 1px var(--secondary-color) solid;
+    border-top: 1px solid var(--tertiary-color);
     padding-top: 1.25rem;
 }
 
@@ -96,13 +96,17 @@ ul[class="footer-icons"] li {
 
 /* legal section */
 section[id="footer-legal"] a {
-    color: var(--secondary-color);
+    color: var(--tertiary-color);
+}
+
+section[id="footer-legal"] a:hover {
+    text-decoration: underline;
 }
 
 section[id="footer-legal"] {
     padding: 0.9375rem 1.875rem;
     background-color: none;
-    color: var(--secondary-color);
+    color: var(--tertiary-color);
 }
 
 ul[class="footer-legal-items"] {

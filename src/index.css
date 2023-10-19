@@ -48,12 +48,12 @@ img {
 }
 
 a {
-  color: var(--secondary-color);
+  color: var(--tertiary-color);
   transition: var(--transition);
 }
 
 a:hover {
-  color: var(--tertiary-color);
+  color: var(--secondary-color);
 }
 
 h1,
@@ -80,7 +80,7 @@ h4 {
 }
 
 section {
-  padding: 5rem 0;
+  padding: 4.5rem 0;
 }
 
 section h2 {

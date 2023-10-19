@@ -20,6 +20,6 @@ export const reviews = [
         profile: '/images/pexels-radomir-jordanovic-1644924.jpg' as string,
         name: 'Mercy' as string,
         occupation: 'HR Manager' as string,
-        review: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, magni? Aliquid quis suscipit laboriosam aut.' as string,
+        review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet magni? Aliquid quis suscipit laboriosam aut.' as string,
     }
 ]

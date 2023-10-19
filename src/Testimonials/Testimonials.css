@@ -19,6 +19,10 @@ section[id="testimonial"] .container {
     text-align: center;
 }
 
+.ReviewArticle h3 {
+    color: var(--tertiary-color);
+}
+
 .ProfilePic {
     width: 6rem;
     border-radius: 50%;
