@@ -8,19 +8,19 @@ function Navbar(): JSX.Element  {
     return (
         <Fragment>
             <header>
-                <a href="#home" className="logo" aria-label="website logo">LOGO</a>
+                <a href="#home" className="logo" aria-label="logo">LOGO</a>
                 <nav>
                     {DesktopListItems.length === 0 ? <p>No item found</p> : null}
                     <ul className="NavLinks">
-                        {DesktopListItems.map(item => <li key={item.id}><a aria-label="desktop nav" href={item.link}>{item.title}</a></li>)}   
+                        {DesktopListItems.map(item => <li key={item.id}><a href={item.link}>{item.title}</a></li>)}   
                     </ul>
                     <ul className={`NavBar2 ${isNavShowing ? 'show_nav' : 'hide_nav'}`}>
-                        {MobileListItems.map(elem => <li key={elem.id}><a aria-label="mobile nav" href={elem.link}>{elem.title}</a></li>)}
+                        {MobileListItems.map(elem => <li key={elem.id}><a href={elem.link}>{elem.title}</a></li>)}
                     </ul>
                     <button className="MenuBtn" onClick={() => setisNavshowing(!isNavShowing)}  aria-label="menu" aria-haspopup="true" aria-expanded="false">
                     <svg
                         xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                        stroke="#2A1415" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+                        stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
                         className="feather feather-menu">
                         <line x1="3" y1="12" x2="21" y2="12"></line>
                         <line x1="3" y1="6" x2="21" y2="6"></line>

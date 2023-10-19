@@ -94,11 +94,12 @@ header {
         cursor: pointer;
         background-color: transparent;
         margin: 0.5rem auto;
-        color: var(--secondary-color);
+        color: var(--tertiary-color);
         align-items: center;
         justify-content: center;
     }
 
+    
     header {
         border-bottom: 1px solid var(--rgba-primary);
     }
