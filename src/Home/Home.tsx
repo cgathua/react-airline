@@ -3,11 +3,6 @@ import MediumImg from '/images/2559290_1053(960w).webp'
 import LargeImg from '/images/2559290_1053(1920).webp'
 import DefaultImg from '/images/2559290_1053(1920).jpg'
 
-declare module "react" {
-    interface ImgHTMLAttributes<T> extends HTMLAttributes<T> {
-        fetchpriority?: 'high' | 'low' | 'auto';
-    }
-}
 
 function Home(): JSX.Element {
     return (
@@ -15,7 +10,6 @@ function Home(): JSX.Element {
             <section id="home" aria-label='home section'>
                 <div className="container">
                     <img
-                        fetchpriority='high'
                         src={DefaultImg}
                         srcSet={`${SmallImg} 480w, ${MediumImg} 960w, ${LargeImg} 1920w, ${DefaultImg} 1920w`}
                         alt="airplane"
