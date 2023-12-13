@@ -6,14 +6,14 @@ import { ChevronDown } from './ChevronDownIcon';
 function Faqs() {
     return (
         <Fragment>
-            <section id="faq" aria-label='frequently asked questions section'>
+            <section id="faq" aria-label='frequently asked questions'>
                 <h2>FAQs</h2>
-                <div className="container">
+                <figure className="container" aria-label='accordion content'>
                     <Accordion.Root className="AccordionRoot" type="single" defaultValue="item-1" collapsible>
                         <Accordion.Item className="AccordionItem" value="item-1">
                             <Accordion.Trigger className="AccordionTrigger">
-                                <span>{elements.map(elem => <h3 key={elem.id}>{elem.question1}</h3>)}</span>
-                                <ChevronDown />
+                                <span>{elements.map(elem => <b key={elem.id}>{elem.question1}</b>)}</span>
+                                <ChevronDown aria-hidden />
                             </Accordion.Trigger>
                             <Accordion.Content className="AccordionContent">
                                 {elements.map(elem => <p key={elem.id}>{elem.answer1}</p>)}
@@ -22,8 +22,8 @@ function Faqs() {
 
                         <Accordion.Item className="AccordionItem" value="item-2">
                             <Accordion.Trigger className="AccordionTrigger">
-                                <span>{elements.map(elem => <h3 key={elem.id}>{elem.question2}</h3>)}</span>
-                                <ChevronDown />
+                                <span>{elements.map(elem => <b key={elem.id}>{elem.question2}</b>)}</span>
+                                <ChevronDown aria-hidden />
                             </Accordion.Trigger>
                             <Accordion.Content className="AccordionContent">
                                 {elements.map(elem => <p key={elem.id}>{elem.answer2}</p>)}
@@ -32,8 +32,8 @@ function Faqs() {
 
                         <Accordion.Item className="AccordionItem" value="item-3">
                             <Accordion.Trigger className="AccordionTrigger">
-                                <span>{elements.map(elem => <h3 key={elem.id}>{elem.question3}</h3>)}</span>
-                                <ChevronDown />
+                                <span>{elements.map(elem => <b key={elem.id}>{elem.question3}</b>)}</span>
+                                <ChevronDown aria-hidden />
                             </Accordion.Trigger>
                             <Accordion.Content className="AccordionContent">
                                 {elements.map(elem => <p key={elem.id}>{elem.answer3}</p>)}
@@ -42,8 +42,8 @@ function Faqs() {
 
                         <Accordion.Item className="AccordionItem" value="item-4">
                             <Accordion.Trigger className="AccordionTrigger">
-                                <span>{elements.map(elem => <h3 key={elem.id}>{elem.question4}</h3>)}</span>
-                                <ChevronDown />
+                                <span>{elements.map(elem => <b key={elem.id}>{elem.question4}</b>)}</span>
+                                <ChevronDown aria-hidden />
                             </Accordion.Trigger>
                             <Accordion.Content className="AccordionContent">
                                 {elements.map(elem => <p key={elem.id}>{elem.answer4}</p>)}
@@ -52,8 +52,8 @@ function Faqs() {
 
                         <Accordion.Item className="AccordionItem" value="item-5">
                             <Accordion.Trigger className="AccordionTrigger">
-                                <span>{elements.map(elem => <h3 key={elem.id}>{elem.question5}</h3>)}</span>
-                                <ChevronDown />
+                                <span>{elements.map(elem => <b key={elem.id}>{elem.question5}</b>)}</span>
+                                <ChevronDown aria-hidden />
                             </Accordion.Trigger>
                             <Accordion.Content className="AccordionContent">
                                 {elements.map(elem => <p key={elem.id}>{elem.answer5}</p>)}
@@ -62,8 +62,8 @@ function Faqs() {
 
                         <Accordion.Item className="AccordionItem" value="item-6">
                             <Accordion.Trigger className="AccordionTrigger">
-                                <span>{elements.map(elem => <h3 key={elem.id}>{elem.question6}</h3>)}</span>
-                                <ChevronDown />
+                                <span>{elements.map(elem => <b key={elem.id}>{elem.question6}</b>)}</span>
+                                <ChevronDown aria-hidden />
                             </Accordion.Trigger>
                             <Accordion.Content className="AccordionContent">
                                 {elements.map(elem => <p key={elem.id}>{elem.answer6}</p>)}
@@ -72,7 +72,7 @@ function Faqs() {
 
                     </Accordion.Root>
 
-                </div>
+                </figure>
             </section>
 
         </Fragment>

@@ -6,13 +6,14 @@ type DestructureObject = {
     profile: string,
     name: string,
     occupation: string,
-    review: string
+    review: string,
+    alt: string
 }
 
 function Testimonials(): JSX.Element {
 
     const [index, setIndex] = useState(0);
-    const { profile, name, occupation, review }: DestructureObject = reviews[index]
+    const { profile, name, occupation, review, alt }: DestructureObject = reviews[index]
 
     const previousSlide = (): void => {
         setIndex(prevSlide => prevSlide - 1);
@@ -32,16 +33,16 @@ function Testimonials(): JSX.Element {
 
     return (
         <>
-            <section id="testimonial" className="container ReviewsContainer" aria-label='testimonials section'>
+            <section id="testimonial" className="container ReviewsContainer" aria-label='testimonials'>
                 <h2>Testimonials</h2>
-                <div className="container">
-                    <figure className="ReviewArticle">
+                <figure className="container" aria-label='testimonials content'>
+                    <figure className="ReviewArticle" aria-label='review'>
                         <picture className="Image">
                             <img
                                 src={profile}
                                 width="640"
                                 height="640"
-                                alt={name}
+                                alt={alt}
                                 className="ProfilePic"
                             />
                         </picture>
@@ -79,7 +80,7 @@ function Testimonials(): JSX.Element {
                             className="feather feather-arrow-right-circle"><circle cx="12" cy="12" r="10"></circle><polyline points="12 16 16 12 12 8"></polyline><line x1="8" y1="12" x2="16" y2="12"></line>
                         </svg>
                     </button>
-                </div>
+                </figure>
             </section>
         </>
     )

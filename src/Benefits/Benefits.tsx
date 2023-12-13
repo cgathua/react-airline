@@ -1,9 +1,9 @@
 function Benefits(): JSX.Element {
     return (
         <>
-            <section id="benefits" aria-label="benefits section">
+            <section id="benefits" aria-label="benefits">
                 <h2>Benefits</h2>
-                <div className="container">
+                <figure className="container" aria-label="benefits content">
                     <article className="BenefitsArticle">
                         <svg
                             aria-hidden
@@ -52,7 +52,7 @@ function Benefits(): JSX.Element {
                         </svg>
                         <h3>Free In-Flight Wifi</h3>
                     </article>
-                </div>
+                </figure>
             </section>
         </>
     )

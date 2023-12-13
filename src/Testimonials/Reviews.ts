@@ -6,6 +6,7 @@ export const reviews = [
         name: 'Stephanie' as string,
         occupation: 'Influencer' as string,
         review: 'The Crew were very accomodating and allowed me to record the flight for social media.' as string,
+        alt: 'surprised young woman in a park' as string
     },
     {
         index: 1 as number,
@@ -13,6 +14,7 @@ export const reviews = [
         name: 'Ann' as string,
         occupation: 'Office Manager' as string,
         review: 'The boarding, departure and arrival was seamless, also the food was excellent. Recommend!' as string,
+        alt: 'woman in black top and black hat' as string
 
     },
     {
@@ -21,5 +23,6 @@ export const reviews = [
         name: 'Mercy' as string,
         occupation: 'HR Manager' as string,
         review: 'Airline ticket prices are at an all time high and I appreciate the affordable cost.' as string,
+        alt: 'close up shot of a woman looking sideways' as string
     }
 ]

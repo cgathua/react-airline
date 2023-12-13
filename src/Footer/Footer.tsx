@@ -2,11 +2,11 @@
 function Footer(): JSX.Element {
     return (
         <>
-            <footer id="footer" aria-label="footer section">
+            <footer>
                 <section id="footer-main">
                     <article className="footer-column">
                         <h2 className="footer-title">Permalinks</h2>
-                        <ul>
+                        <ul aria-label="secondary navigation">
                             <li><a href="#home">Home</a></li>
                             <li><a href="#benefits">Benefits</a></li>
                             <li><a href="#testimonial">Testimonials</a></li>
@@ -24,37 +24,73 @@ function Footer(): JSX.Element {
                             <li><a href="https://www.pexels.com/photo/close-up-shot-of-a-woman-looking-sideways-14587417/" target="_blank">Pexels.com</a></li>
                         </ul>
                     </article>
-                    <article className="footer-column">
+                    <address className="footer-column">
                         <h2 className="footer-title">Contact</h2>
                         <ul>
                             <li>
-                                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" min-width="16" height="16" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
-                                    strokeLinejoin="round" className="feather feather-mail">
+                                <svg 
+                                    aria-hidden="true" 
+                                    xmlns="http://www.w3.org/2000/svg" 
+                                    min-width="16" 
+                                    height="16" 
+                                    viewBox="0 0 24 24"
+                                    fill="none" 
+                                    stroke="currentColor" 
+                                    strokeWidth="2" 
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round" 
+                                    className="feather feather-mail">
                                     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
                                     </path>
                                     <polyline points="22,6 12,13 2,6"></polyline>
-                                </svg><a href="#"> support@logo.com</a>
+                                </svg>
+                                <a href="#"> support@logo.com</a>
                             </li>
                             <li>
-                                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" min-width="16" height="16" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
-                                    strokeLinejoin="round" className="feather feather-phone">
+                                <svg 
+                                    aria-hidden="true" 
+                                    xmlns="http://www.w3.org/2000/svg" 
+                                    min-width="16" 
+                                    height="16" 
+                                    viewBox="0 0 24 24"
+                                    fill="none" 
+                                    stroke="currentColor" 
+                                    strokeWidth="2" 
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round" 
+                                    className="feather feather-phone">
                                     <path
                                         d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
                                     </path>
                                 </svg> (1-800)book-now
                             </li>
+                            <li>
+                                <svg
+                                    aria-hidden="true" 
+                                    xmlns="http://www.w3.org/2000/svg" 
+                                    min-width="16" 
+                                    min-height="16" 
+                                    viewBox="0 0 24 24" 
+                                    fill="none" 
+                                    stroke="currentColor" 
+                                    strokeWidth="2" 
+                                    strokeLinecap="round" 
+                                    strokeLinejoin="round" 
+                                    className="feather feather-map-pin">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z">
+                                    </path><circle cx="12" cy="10" r="3"></circle>
+                                </svg> Atlanta, Georgia
+                            </li>
                         </ul>
-                    </article>
+                    </address>
                     <article className="footer-column">
                         <h2 className="footer-title">Get Vouchers</h2>
                         <p>Subscribe to our mailing list.</p>
                         <form action="newsletter" aria-label="signup">
-                            <label id="email-label" className="label"><input id="footer-email" type="email" name="email" placeholder="Enter your email" required
-                                aria-label="enter your email" autoComplete="email"/>
+                            <label id="email-label" className="label" title="label for email"><input id="footer-email" type="email" name="email" placeholder="Enter your email" required
+                                aria-label="enter your email" autoComplete="email" />
                             </label>
-                            <label htmlFor="submit" className="label2"><input type="submit" value="Subscribe"/></label>
+                            <label htmlFor="submit" className="label2" title="label for subscribe"><input type="submit" value="Subscribe" /></label>
                         </form>
                     </article>
                 </section>
@@ -127,8 +163,8 @@ function Footer(): JSX.Element {
                 <section id="footer-legal" aria-label="legal">
                     <small>
                         <ul className="footer-legal-items">
-                            <li><a href="#">Terms &amp; Conditions</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#" aria-label="see terms & conditions">Terms &amp; Conditions</a></li>
+                            <li><a href="#" aria-label="see privacy policy">Privacy Policy</a></li>
                             <li>Made by <a href="https://cgathua.pages.dev/" target="_blank">@cgathua</a></li>
                         </ul>
                     </small>

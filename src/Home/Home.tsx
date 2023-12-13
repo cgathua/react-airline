@@ -7,8 +7,8 @@ import DefaultImg from '/images/2559290_1053(1920).jpg'
 function Home(): JSX.Element {
     return (
         <>
-            <section id="home" aria-label='home section'>
-                <div className="container">
+            <section id="home" aria-label='home'>
+                <figure className="container" aria-label='home content'>
                     <img
                         src={DefaultImg}
                         srcSet={`${SmallImg} 480w, ${MediumImg} 960w, ${LargeImg} 1920w, ${DefaultImg} 1920w`}
@@ -23,7 +23,7 @@ function Home(): JSX.Element {
                         <p>Trusted by thousands of passengers since 2002.</p>
                         <a className='btn' href="#booking" aria-label='Book Now'>Book Now</a>
                     </article>
-                </div>
+                </figure>
             </section>
         </>
     )

@@ -1,6 +1,6 @@
 section[id="benefits"] .container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(min-content, 1fr));
     gap: 1rem;
 }
 
@@ -22,12 +22,12 @@ section[id="benefits"] h2 {
 
 @media screen and (max-width: 1024px) {
     section[id="benefits"] .container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, minmax(min-content, 1fr));
     }
 }
 
 @media screen and (max-width: 600px) {
     section[id="benefits"] .container {
         grid-template-columns: minmax(min-content, 1fr);
-    }   
+    }
 }

@@ -1,14 +1,14 @@
-footer[id="footer"] {
+footer {
     background-color: none;
     color: var(--secondary-color);
     line-height: 1.5;
 }
 
-footer[id="footer"] a {
+footer a {
     color: var(--secondary-color);
 }
 
-footer[id="footer"] a:hover {
+footer a:hover {
     color: var(--tertiary-color);
 }
 

@@ -1,6 +1,6 @@
 section[id="home"] .container {
     display: grid;
-    grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 1fr);
+    grid-template-columns: repeat(2, minmax(min-content, 1fr));
     place-items: center end;
     gap: 2rem;
 }
@@ -22,10 +22,11 @@ h1 {
 .HomeImage {
     aspect-ratio: 16/9;
 }
+
 /* end of desktop version */
 
 @media screen and (max-width: 600px) {
     section[id="home"] .container {
         grid-template-columns: minmax(min-content, 1fr);
-    }   
+    }
 }
