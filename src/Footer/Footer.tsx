@@ -87,10 +87,10 @@ function Footer(): JSX.Element {
                         <h2 className="footer-title">Get Vouchers</h2>
                         <p>Subscribe to our mailing list.</p>
                         <form action="newsletter" aria-label="signup">
-                            <label id="email-label" className="label" title="label for email"><input id="footer-email" type="email" name="email" placeholder="Enter your email" required
+                            <label id="email-label" className="label" aria-labelledby="footer-email"><input id="footer-email" type="email" name="email" placeholder="Enter your email" required
                                 aria-label="enter your email" autoComplete="email" />
                             </label>
-                            <label htmlFor="submit" className="label2" title="label for subscribe"><input type="submit" value="Subscribe" /></label>
+                            <label htmlFor="submit" id="submit-btn"><input type="submit" value="Subscribe" id="submit-btn" /></label>
                         </form>
                     </article>
                 </section>

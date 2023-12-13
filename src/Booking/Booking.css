@@ -61,7 +61,7 @@ input {
     color: var(--secondary-color);
 }
 
-.label1 input[type="submit"] {
+.form input[type="submit"] {
     display: block;
     width: 60%;
     height: 2em;
@@ -78,7 +78,7 @@ input {
     margin: 0 2rem;
 }
 
-.label1:hover input[type="submit"] {
+.form:hover input[type="submit"] {
     background-color: transparent;
     border-color: var(--secondary-color);
     color: var(--secondary-color);
@@ -104,7 +104,7 @@ select {
 }
 
 @media screen and (max-width: 600px) {
-    .label1 input[type="submit"] {
+    .form input[type="submit"] {
         margin: 0 auto;
     }
 }

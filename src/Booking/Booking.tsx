@@ -34,7 +34,7 @@ function Booking() {
                                 <label id="time"> <TimeIcon aria-label='time icon' /> Time <input type="time" name="Schedule Time" aria-labelledby="time" required /></label>
                             </legend>
                         </fieldset>
-                        <label className="label1" title="book flight"><input type="submit" id="submit" value="book flight" aria-label="submit button" /></label>
+                        <input type="submit" id="submit" value="book flight"/>
                     </form>
                 </figure>
             </section>

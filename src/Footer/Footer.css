@@ -63,7 +63,7 @@ form {
     margin-top: 0.3125rem;
 }
 
-.label2 input[type="submit"] {
+#submit-btn input[type="submit"] {
     background-color: var(--tertiary-color);
     color: var(--primary-color);
     cursor: pointer;
