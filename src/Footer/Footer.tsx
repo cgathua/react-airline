@@ -90,7 +90,7 @@ function Footer(): JSX.Element {
                             <label id="email-label" className="label" aria-labelledby="footer-email"><input id="footer-email" type="email" name="email" placeholder="Enter your email" required
                                 aria-label="enter your email" autoComplete="email" />
                             </label>
-                            <label htmlFor="submit" id="submit-btn" aria-labelledby="submit-btn"><input type="submit" value="Subscribe" id="submit-btn" /></label>
+                            <label id="submit-btn" aria-labelledby="submit-btn"><input type="submit" value="Subscribe" id="submit-btn" /></label>
                         </form>
                     </article>
                 </section>
