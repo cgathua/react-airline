@@ -33,7 +33,7 @@ section[id="faq"] h2 {
 .AccordionTrigger {
     font-family: inherit;
     background-color: var(--accordion-background);
-    color: var(--secondary-color);
+    color: var(--tertiary-color);
     cursor: pointer;
     height: 45px;
     line-height: 1;
@@ -79,6 +79,7 @@ section[id="faq"] h2 {
         height: 0;
     }
 }
+
 
 @media screen and (max-width: 600px) {
     .AccordionRoot {

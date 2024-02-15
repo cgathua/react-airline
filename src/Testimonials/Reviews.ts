@@ -13,7 +13,7 @@ export const reviews = [
         profile: '/images/pexels-valentin-angel-fernandez-14587417.jpg',
         name: 'Ann' as string,
         occupation: 'Office Manager' as string,
-        review: 'The boarding, departure and arrival was seamless, also the food was excellent. Recommend!' as string,
+        review: 'The boarding, departure and arrival was seamless, also the food was excellent. Highly Recommend!' as string,
         alt: 'woman in black top and black hat' as string
 
     },

@@ -2,7 +2,8 @@
 export const ArrivalIcon = (): JSX.Element => {
     return (
         <svg
-            min-width="24px"
+            aria-label='arrival icon'
+            width="24px"
             height="24px"
             viewBox="0 0 24 24"
             version="1.1"

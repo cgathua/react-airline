@@ -22,8 +22,8 @@ export const elements = [
     },
     {
         id: 4 as number,
-        question5: "Do you offer rewards or frequent flier points?" as string,
-        answer5: "Unfortunately to keep low prices, we do not offer any such perks." as string,
+        question5: "Do you offer rewards or frequent flyer points?" as string,
+        answer5: "Yes we do offer perks." as string,
     },
     {
         id: 5 as number,

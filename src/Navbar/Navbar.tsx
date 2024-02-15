@@ -2,13 +2,16 @@ import { Fragment } from "react";
 import { DesktopListItems } from './DesktopLiItems'
 import { MobileListItems } from './MobileListItems'
 import { useState } from "react"
+import { LogoIconTsx } from "./LogoIcon";
 
 function Navbar(): JSX.Element {
     const [isNavShowing, setisNavshowing] = useState(false);
     return (
         <Fragment>
             <header>
-                <a href="#home" className="logo" aria-label="logo">LOGO</a>
+                <a href="#home" className="logo" aria-label="logo">
+                    <LogoIconTsx />
+                </a>
                 <nav>
                     {DesktopListItems.length === 0 ? <p>No item found</p> : null}
                     <ul className="NavLinks">

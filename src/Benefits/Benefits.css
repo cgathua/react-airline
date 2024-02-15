@@ -1,7 +1,7 @@
 section[id="benefits"] .container {
     display: grid;
     grid-template-columns: repeat(3, minmax(min-content, 1fr));
-    gap: 1rem;
+    gap: 2rem;
 }
 
 section[id="benefits"] h2 {
@@ -16,6 +16,7 @@ section[id="benefits"] h2 {
 .BenefitsArticle h3 {
     background-color: var(--tertiary-color);
     color: var(--primary-color);
+    border-radius: 5px;
 }
 
 /* end of desktop version */

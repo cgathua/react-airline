@@ -2,7 +2,8 @@
 export const TimeIcon = (): JSX.Element => {
     return (
         <svg
-            min-width="24px"
+            aria-label='time icon'
+            width="24px"
             height="24px"
             viewBox="0 0 24 24"
             fill="none"

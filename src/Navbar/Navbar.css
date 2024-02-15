@@ -11,10 +11,10 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 0 1rem;
     background-color: var(--rgba-color);
     z-index: 9;
     font-weight: 600;
+    padding: 0 1rem;
 }
 
 .NavLinks {
@@ -22,12 +22,19 @@ header {
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    margin-right: 1rem;
 }
 
 .logo {
-    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    margin-left: 0.5rem;
+    display: flex;
+    align-self: center;
 }
 
+.logo:hover {
+    fill: var(--secondary-color);
+}
 /* end of desktop nav */
 
 @media screen and (max-width: 1024px) {
@@ -102,6 +109,10 @@ header {
 
     header {
         border-bottom: 1px solid var(--rgba-primary);
+    }
+
+    .logo {
+        margin: initial;
     }
 }
 

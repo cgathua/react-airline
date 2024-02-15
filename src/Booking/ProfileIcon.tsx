@@ -2,8 +2,9 @@
 export const ProfileIcon = (): JSX.Element => {
     return (
         <svg
+            aria-label='profile icon'
             fill="#000000"
-            min-width="24px"
+            width="24px"
             height="24px"
             viewBox="0 0 32 32"
             version="1.1"

@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #D3D2D2;
-  --secondary-color: #2A1415;
-  --tertiary-color: #771B1F;
-  --alternate-color: #736463;
+  --primary-color: #D4D4D4;
+  --secondary-color: #211F1F;
+  --tertiary-color: #983335;
+  --alternate-color: #7D6C64;
   --rgba-color: rgba(255, 255, 255, 0.9);
   --rgba-primary: rgba(211, 210, 210, 0.5);
   --accordion-background: #fff;
@@ -29,7 +29,7 @@ html {
 }
 
 body {
-  font-family: 'Nimbus Mono PS', 'Courier New', monospace;
+  font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
   font-weight: normal;
   min-height: 100svh;
   line-height: 1.75;
@@ -72,6 +72,7 @@ h4 {
   transition: var(--transition);
   margin: 1rem auto;
   font-size: 1rem;
+  border-radius: 5px;
 }
 
 .btn:hover {
@@ -80,13 +81,15 @@ h4 {
 }
 
 section {
-  padding: 4.5rem 0;
+  padding: 4rem 0;
 }
 
 section h2 {
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
+  margin-top: 2rem; 
 }
+
 
 html,
 body {

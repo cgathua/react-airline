@@ -76,6 +76,7 @@ input {
     text-transform: capitalize;
     text-align: center;
     margin: 0 2rem;
+    border-radius: 5px;
 }
 
 .form:hover input[type="submit"] {

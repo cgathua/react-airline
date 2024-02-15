@@ -1,6 +1,8 @@
 section[id="testimonial"] .container {
     display: grid;
-    place-items: center;
+    grid-template-columns: repeat(2, minmax(min-content, 1fr));
+    place-items: start;
+    gap: 2rem;
 }
 
 .ReviewsContainer {
@@ -40,6 +42,7 @@ section[id="testimonial"] .container {
     padding: 1rem;
     margin-top: 1rem;
     text-align: left;
+    border-radius: 5px;
 }
 
 .SliderButton {
@@ -50,4 +53,10 @@ section[id="testimonial"] .container {
     margin: 1rem auto;
     background: transparent;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    section[id="testimonial"] .container {
+        grid-template-columns: minmax(min-content, 1fr);
+    } 
 }
