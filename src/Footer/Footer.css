@@ -1,15 +1,15 @@
 footer {
     background-color: none;
-    color: var(--secondary-color);
+    color: var(--tertiary-color);
     line-height: 1.5;
 }
 
 footer a {
-    color: var(--secondary-color);
+    color: var(--tertiary-color);
 }
 
 footer a:hover {
-    color: var(--tertiary-color);
+    text-decoration: underline;
 }
 
 .footer-column {

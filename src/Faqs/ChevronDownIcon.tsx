@@ -1,6 +1,7 @@
 export const ChevronDown = () => {
     return (
         <svg
+            aria-label="chevron down icon"
             className='AccordionChevron'
             min-width="16px"
             height="16px"

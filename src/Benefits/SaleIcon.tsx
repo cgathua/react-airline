@@ -2,7 +2,7 @@ export const SaleIcon = (): JSX.Element => {
     return (
         <svg 
             aria-label="sale icon"
-            fill="#983335" 
+            fill="currentColor" 
             version="1.1" 
             id="Capa_1" 
             xmlns="http://www.w3.org/2000/svg" 
@@ -11,7 +11,7 @@ export const SaleIcon = (): JSX.Element => {
             height="48px" 
             viewBox="0 0 575.538 575.537" 
             xmlSpace="preserve" 
-            stroke="#983335"><g id="SVGRepo_bgCarrier" 
+            stroke="#333434"><g id="SVGRepo_bgCarrier" 
             strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" 
             strokeLinecap="round" 
             strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <polygon points="319.21,339.186 298.201,350.4 308.047,360.248 ">

@@ -32,9 +32,6 @@ header {
     align-self: center;
 }
 
-.logo:hover {
-    fill: var(--secondary-color);
-}
 /* end of desktop nav */
 
 @media screen and (max-width: 1024px) {

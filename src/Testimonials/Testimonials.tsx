@@ -1,7 +1,7 @@
 
 import { reviews } from './Reviews'
 import { useState } from 'react'
-import ReviewsImg from '/images/2559294_1057w1125.webp'
+import ReviewsImg from '/images/8426450_3918989.webp'
 
 type DestructureObject = {
     profile: string,
@@ -59,7 +59,7 @@ function Testimonials(): JSX.Element {
                                 height="36"
                                 viewBox="0 0 24 24"
                                 fill="none"
-                                stroke="#983335"
+                                stroke="#333434"
                                 strokeWidth="2"
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
@@ -73,7 +73,7 @@ function Testimonials(): JSX.Element {
                                 height="36"
                                 viewBox="0 0 24 24"
                                 fill="none"
-                                stroke="#983335"
+                                stroke="#333434"
                                 strokeWidth="2"
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
@@ -85,8 +85,8 @@ function Testimonials(): JSX.Element {
                     <img
                         src={ReviewsImg}
                         alt='airplane'
-                        width={1125}
-                        height={750}
+                        width={1000}
+                        height={1000}
                         loading='lazy'
                     />
                 </figure>

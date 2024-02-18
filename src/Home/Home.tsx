@@ -1,7 +1,7 @@
-import SmallImg from '/images/2559290_1053(480w).webp'
-import MediumImg from '/images/2559290_1053(960w).webp'
-import LargeImg from '/images/2559290_1053(1920).webp'
-import DefaultImg from '/images/2559290_1053(1920).jpg'
+
+import MediumImg from '/images/4327377_18780w693.webp'
+import LargeImg from '/images/4327377_18780w1386.webp'
+import DefaultImg from '/images/4327377_18780w1386.jpg'
 
 
 function Home(): JSX.Element {
@@ -11,10 +11,10 @@ function Home(): JSX.Element {
                 <figure className="container" aria-label='home content'>
                     <img
                         src={DefaultImg}
-                        srcSet={`${SmallImg} 480w, ${MediumImg} 960w, ${LargeImg} 1920w, ${DefaultImg} 1920w`}
+                        srcSet={`${MediumImg} 693w, ${LargeImg} 1386w, ${DefaultImg} 1386w`}
                         alt="airplane"
-                        width={1920}
-                        height={1080}
+                        width={1386}
+                        height={1125}
                         className='HomeImage'
                     />
                     <article className="HomeArticle">

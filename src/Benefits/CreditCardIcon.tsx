@@ -2,7 +2,7 @@ export const CreditCardIcon = (): JSX.Element => {
     return (
         <svg
             aria-label="credit card icon" 
-            fill="#983335" 
+            fill="currentColor" 
             version="1.1" 
             id="Capa_1" 
             xmlns="http://www.w3.org/2000/svg" 
@@ -11,7 +11,7 @@ export const CreditCardIcon = (): JSX.Element => {
             height="48px" 
             viewBox="0 0 471.817 471.817" 
             xmlSpace="preserve" 
-            stroke="#983335"><g id="SVGRepo_bgCarrier" 
+            stroke="#333434"><g id="SVGRepo_bgCarrier" 
             strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" 
             strokeLinecap="round" 
             strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M434.717,123.98c0-22.231-18.021-40.251-40.251-40.251H40.251C18.021,83.729,0,101.75,0,123.98v35.247h434.717V123.98 L434.717,123.98z">

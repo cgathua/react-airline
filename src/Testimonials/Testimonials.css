@@ -1,7 +1,7 @@
 section[id="testimonial"] .container {
     display: grid;
     grid-template-columns: repeat(2, minmax(min-content, 1fr));
-    place-items: start;
+    place-items: center;
     gap: 2rem;
 }
 
@@ -28,6 +28,8 @@ section[id="testimonial"] .container {
     width: 6rem;
     border-radius: 50%;
     border: 2px solid var(--tertiary-color);
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
 }
 
 .Image {
@@ -58,5 +60,5 @@ section[id="testimonial"] .container {
 @media screen and (max-width: 1024px) {
     section[id="testimonial"] .container {
         grid-template-columns: minmax(min-content, 1fr);
-    } 
+    }
 }

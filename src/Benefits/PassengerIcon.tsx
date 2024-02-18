@@ -2,7 +2,7 @@ export const PassengerIcon = (): JSX.Element => {
     return (
         <svg
         aria-label="passenger icon" 
-            fill="#983335" 
+            fill="currentColor" 
             width="48px" 
             height="48px" 
             viewBox="0 0 512 512" 
@@ -12,7 +12,7 @@ export const PassengerIcon = (): JSX.Element => {
             xmlSpace="preserve" 
             xmlns="http://www.w3.org/2000/svg" 
             xmlnsXlink="http://www.w3.org/1999/xlink" 
-            stroke="#983335"><g id="SVGRepo_bgCarrier" 
+            stroke="#333434"><g id="SVGRepo_bgCarrier" 
             strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" 
             strokeLinecap="round" 
             strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier">

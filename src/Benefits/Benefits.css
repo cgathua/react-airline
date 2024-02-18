@@ -13,12 +13,6 @@ section[id="benefits"] h2 {
     text-align: center;
 }
 
-.BenefitsArticle h3 {
-    background-color: var(--tertiary-color);
-    color: var(--primary-color);
-    border-radius: 5px;
-}
-
 /* end of desktop version */
 
 @media screen and (max-width: 1024px) {

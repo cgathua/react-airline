@@ -17,8 +17,8 @@ function Footer(): JSX.Element {
                     <article className="footer-column">
                         <h2 className="footer-title">Photo Credit</h2>
                         <ul>
-                            <li><a href="https://www.freepik.com/free-psd/plane-mockup_2559290.htm" rel="noreferrer" target="_blank" >Freepik.com</a></li>
-                            <li><a href="https://www.freepik.com/free-psd/plane-mockup_2559294.htm" rel="noreferrer" target="_blank" >Freepik.com</a></li>
+                            <li><a href="https://www.freepik.com/free-vector/large-passenger-jet-airliner-front-side-airplane-view_4327377.htm" rel="noreferrer" target="_blank">Freepik.com</a></li>
+                            <li><a href="https://www.freepik.com/free-vector/flying-around-world-with-airplane-concept-illustration_8426450.htm" rel="noreferrer" target="_blank" >Freepik.com</a></li>
                             <li><a href="https://unsplash.com/photos/6xQFm9TFwmk" target="_blank">Unsplash.com</a></li>
                             <li><a href="https://www.pexels.com/photo/photo-of-woman-in-black-top-and-black-hat-1644924/" target="_blank">Pexels.com</a></li>
                             <li><a href="https://www.pexels.com/photo/surprised-young-woman-in-park-on-sunny-day-4574925/" target="_blank">Pexels.com</a></li>
@@ -106,7 +106,7 @@ function Footer(): JSX.Element {
                                 height="16"
                                 viewBox="0 0 24 24" 
                                 fill="none" 
-                                stroke="#983335" 
+                                stroke="#333434" 
                                 strokeWidth="2"
                                 strokeLinecap="round" 
                                 strokeLinejoin="round" 
@@ -124,7 +124,7 @@ function Footer(): JSX.Element {
                                     height="16"
                                     viewBox="0 0 24 24" 
                                     fill="none" 
-                                    stroke="#983335" 
+                                    stroke="#333434" 
                                     strokeWidth="2"
                                     strokeLinecap="round" 
                                     strokeLinejoin="round" 
@@ -143,7 +143,7 @@ function Footer(): JSX.Element {
                                 height="16" 
                                 viewBox="0 0 24 24" 
                                 fill="none" 
-                                stroke="#983335" 
+                                stroke="#333434" 
                                 strokeWidth="2"
                                 strokeLinecap="round" 
                                 strokeLinejoin="round" 
@@ -162,7 +162,7 @@ function Footer(): JSX.Element {
                                 height="16"
                                 viewBox="0 0 24 24" 
                                 fill="none" 
-                                stroke="#983335" 
+                                stroke="#333434" 
                                 strokeWidth="2"
                                 strokeLinecap="round" 
                                 strokeLinejoin="round" 
@@ -181,7 +181,7 @@ function Footer(): JSX.Element {
                                 height="16"
                                 viewBox="0 0 24 24" 
                                 fill="none" 
-                                stroke="#983335" 
+                                stroke="#333434" 
                                 strokeWidth="2"
                                 strokeLinecap="round" 
                                 strokeLinejoin="round" 
@@ -202,7 +202,7 @@ function Footer(): JSX.Element {
                                 height="16"
                                 viewBox="0 0 24 24" 
                                 fill="none" 
-                                stroke="#983335" 
+                                stroke="#333434" 
                                 strokeWidth="2"
                                 strokeLinecap="round" 
                                 strokeLinejoin="round" 
