@@ -8,7 +8,7 @@
   --accordion-background: #fff;
   --desktop-container: 86%;
   --mobile-container: 90%;
-  --transition: all 0.3s linear;
+  --transition: all 0.3s ease;
   --radix-accordion-content-height: 18rem;
 }
 
