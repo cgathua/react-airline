@@ -20,7 +20,7 @@ function Home(): JSX.Element {
                     <article className="HomeArticle">
                         <h1>Affordable Regional Flights</h1>
                         <p>We offer daily flights from Hartesfield-Jackson Atlanta International Airport, to Miami International Airport.</p>
-                        <p>Trusted by thousands of passengers since 2002.</p>
+                        <p>Our Airline is trusted by thousands of passengers since 2002 and highly rated by our customers, at Better Business Bureau.</p>
                         <a className='btn' href="#booking" aria-label='Book Now'>Book Now</a>
                     </article>
                 </figure>

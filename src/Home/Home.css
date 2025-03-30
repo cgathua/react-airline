@@ -1,14 +1,19 @@
 section[id="home"] .container {
     display: grid;
     grid-template-columns: repeat(2, minmax(min-content, 1fr));
-    place-items: center end;
+    place-items: center;
     gap: 2rem;
+    width: 100%;
+    
 }
 
 h1 {
     color: var(--tertiary-color);
 }
 
+.HomeArticle {
+    width: var(--desktop-container);
+}
 
 .HomeArticle a {
     font-weight: bold;
@@ -28,5 +33,9 @@ h1 {
 @media screen and (max-width: 600px) {
     section[id="home"] .container {
         grid-template-columns: minmax(min-content, 1fr);
+    }
+
+    .HomeArticle {
+        width: var(--mobile-container);
     }
 }
